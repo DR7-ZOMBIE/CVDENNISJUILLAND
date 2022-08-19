@@ -1,0 +1,59 @@
+/*Reglas de css*/
+/*Font size por default nos da 16 px*/
+/*Hay muchas propiedades toca estar investigando*/
+/*text-decoration: none -> quita el estilo o subrayado*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+*{
+  font-family: 'Amaranth', sans-serif;
+}
+
+.tamañoColor {
+  background-image: url(../img/Mural.jpg);
+  background-size: contain;
+  /* text-align: center; */
+}
+
+.centrarImagen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.tituloPrincipal {
+  position: relative;
+  background-color: #82e3ff;
+  color: #000000;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 10px;
+  font-size: 30px;
+  list-style: 84.69%;
+  letter-spacing: 5px;
+}
+
+h2 {
+  background-color: #82e3ff;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+  letter-spacing: 5px;
+  font-weight: 30px;
+}
+
+.organizandoh3 {
+  background-color: #000000;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.centrarLink{
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+
+
